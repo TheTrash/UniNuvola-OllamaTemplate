@@ -49,3 +49,4 @@ print("Summary:", result['response'])
 ```
 
 ⚠️ Assicurati che il server Ollama sia in esecuzione (`ollama serve`) prima di eseguire lo script.
+⚠️ Assicurati di aver scaricato almeno un modello ( per esempio llama2 _come mostrato nel codice_ ) con ollama run.
