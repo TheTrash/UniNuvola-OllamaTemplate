@@ -16,6 +16,9 @@ RUN curl -fsSL https://ollama.com/install.sh | sh
 # Install Python dependencies for RAG agent
 RUN pip3 install --no-cache-dir \
     langchain \
+    langchain-community \
+    langchain-ollama \
+    langchain-huggingface \
     chromadb \
     sentence-transformers \
     ollama
