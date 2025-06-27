@@ -23,9 +23,6 @@ RUN pip3 install --no-cache-dir \
     sentence-transformers \
     ollama
 
-# Create app directory
-WORKDIR /app
-
 # Expose Ollama port
 EXPOSE 11434
 
