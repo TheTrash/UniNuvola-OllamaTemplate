@@ -18,7 +18,7 @@ RUN pip3 install --no-cache-dir \
     langchain \
     chromadb \
     sentence-transformers \
-    ollama \
+    ollama
 
 # Create app directory
 WORKDIR /app
